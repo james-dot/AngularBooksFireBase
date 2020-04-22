@@ -28,6 +28,10 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              },
+              
               "src/styles.scss"
           
             ],
@@ -92,11 +96,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [{
-              "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-            },
-            
-            "src/styles.css"
+            "styles": [           
+              "src/styles.scss",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           }
